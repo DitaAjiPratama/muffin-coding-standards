@@ -1,0 +1,16 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<select id="myselect">
+  <option value="Red">Rose</option>
+  <option value="Blue">Violet</option>
+</select>
+
+<input id="myinput" type="text" value="Autofill here" />
+
+<script>
+  $('#myselect').on('change', function(){
+  $('#myinput').val($(this).val());
+})
+// init
+$('#myselect').change();
+</script>
