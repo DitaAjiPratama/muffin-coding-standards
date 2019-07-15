@@ -5,6 +5,7 @@
     <title>Validation Pagination Form</title>
     <link rel="stylesheet" href="library/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <script src="library/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="library/jquery/jquery-3.4.1.min.js"></script>
   </head>
   <body>
 
@@ -43,11 +44,6 @@
             </button>
 
           </form>
-
-          <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"></script>
 
           <script type="text/javascript" src="pagination.js"></script>
 
