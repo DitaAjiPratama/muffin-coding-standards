@@ -5,12 +5,12 @@ $(document).ready(function(){
   halaman(x);
 
   $('#prev').click(function(){
-    x = x-1;
+    x = x - 1;
     halaman(x);
   });
 
   $('#next').click(function(){
-    x = x+1;
+    x = x + 1;
     halaman(x);
   });
 
